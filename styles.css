@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #pdfViewer input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  #qaSection input[type="text"] {
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  #qaSection button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #qaSection button:hover {
+    background-color: #0056b3;
+  }
+  
+  #answerContainer {
+    margin-top: 20px;
+  }
+  
+  
